@@ -1,0 +1,71 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  text-align: center;
+  background-color: cornflowerblue;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 8px 9px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button , .welcome-btn{
+  background-color: #fff;
+  color: cornflowerblue;
+  padding: 4px 8px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+  margin: 40px auto;
+}
+
+.welcome-btn {
+  color: #fff;
+  background-color: cornflowerblue;
+  font-size: 20px;
+}
+
+
+.loading {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: cornflowerblue;
+  border-radius: 50%;
+  display: block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  margin: 0 auto;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
